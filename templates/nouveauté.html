@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="{{ STATIC_URL }}Meslivres/css/style.css" type="text/css">
+<body>
+    <style>
+            .button, input{border-radius: 1%;
+margin: 5%;
+width: 50%;
+text-align: center;
+margin-left: 20%;
+padding: 9px;
+border: 2px solid black;
+  border-radius: 15px 15px;
+  max-width: 75%;}
+        .topnav a { 
+  width: 100%;
+  padding: 2%;
+  margin: 5%;
+  color: gray;
+  }
+  .topnav a:hover {
+  background-color:blue;
+  color:gray;
+  border-radius: 12px
+  
+}
+a {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+  .topnav{
+      margin: 7px;
+      padding: 0% ;
+      text-align: center;
+      max-width: 25%;
+flex: 0 0 25%; 
+vertical-align: middle;  }
+
+.deux{ margin: 2%;
+    
+
+}
+.accueil{margin:1%;
+margin-left: 3%;
+     }
+     .resolved {
+    background-color: #f7f8f4;
+    height: 40px;
+    line-height: 40px;
+    color: gray;
+    box-shadow: 0 1px 1px #e5e5e5;
+    background-clip: padding-box;
+    border-radius: 15px 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding-left: 10px;
+    width: 40%;
+    margin-left: 15%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  display: block;
+  color: rgb(56, 54, 54);
+  text-decoration: none;
+  display:inline-block;
+ width: 25%;
+}
+.col-md-3{margin-top: 2%;
+
+flex: 0 0 50%;
+
+}
+.row {
+    width: 90%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 300px;
+    margin-left: 10px;
+    flex: 0 0 45%;
+}
+.resol {
+    background-color:rgb(51, 50, 50) ;
+    height: 40px;
+    line-height: 40px;
+    
+    box-shadow: 0 1px 1px #e5e5e5;
+    background-clip: padding-box;
+    border-radius: 15px 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding-left: 10px;
+    width: 40%;
+    margin-left: 30%;
+}
+.rox1{margin-left: 19%;
+color: white;
+font-size: x-large;}
+span{margin-right: 5% } 
+
+.container3{background-color: rgb(65, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    color: whitesmoke;
+    opacity: initial;
+    margin: 1%;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 4%;
+    }
+    .col-sm-6{flex: 0 0 27%;}
+    </style>
+    <!--nav bar -->
+    <div class="deux">
+    
+    <a class="accueil" href="">accueil</a>
+
+    <input type="text" placeholder="Search..">
+</div>
+    <div class="topnav">
+
+      <a class="active" href="pop">Populaire</a>
+      <a  href="genre">Genre</a>
+      <a  href="nouveauté">Nouveauté</a>
+    
+    </div>
+    <hr>
+    <!-- fin nav bar -->
+<div class="resolved">
+<ul>
+    <li><a href="">Lecture en cours</a></li>
+    <li><a href="archivée.html">Archivée</a></li>
+    <li><a href="listes de lecture.html">Listes de lecture</a></li>
+</ul>
+</div>
+<div class= "row">
+  <div class = "col-sm-6 col-md-3"> 
+      <h1 class="container2"></h1>
+    </div>
+
+    <div class = "col-sm-6 col-md-3"> 
+      <a href = "#" class = "thumbnail">
+        <img  src="/static/image04.JPG" alt="Admiral Hopper Tribute Page" >
+      </a>
+      <p> Les Huit Coups De L'Horloge  - MAURICE LEBLANC</p>
+      </div>
+
+      <div class = "col-sm-6 col-md-3"> 
+          <a href = "#" class = "thumbnail">
+            <img  src="/static/image.JPG" alt="Admiral Hopper Tribute Page" >
+          </a>
+          <p> Les Huit Coups De L'Horloge  - MAURICE LEBLANC</p>
+          </div>
+
+          <div class = "col-sm-6 col-md-3"> 
+              <a href = "#" class = "thumbnail">
+                <img  src="/static/image03.JPG" alt="Admiral Hopper Tribute Page" >
+              </a>
+              <p> Les Huit Coups De L'Horloge  - MAURICE LEBLANC</p>
+              </div>
+          </div>
+          
+          <div class="resol">
+            <p class="rox1">Trouver des histoires similaire ici</p>
+            </div>
+<!--fin milieu -->
+<a href="nouveautéplus"><span style="float: right" >voir plus<i class="fa fa-arrow-down" aria-hidden="true"></i></span></a>
+       
+
+<!--footer -->
+<p class="container3">
+
+  <span style="float: right" ><i class="fas fa-facebook-square"></i> Library</span>
+ 
+  <span style="float: left" class="left">ma bibliothèque mon secret d une culture intélligente</span>
+</p> 
+        
+<!--fin footer -->
+    </body>
+    </html>

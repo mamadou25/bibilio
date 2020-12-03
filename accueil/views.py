@@ -20,3 +20,13 @@ def genre(request):
 
 def voir(request):
     return render(request, 'pop voir plus.html')
+
+def genreplus(request):
+    return render(request, 'genre plus.html')
+
+def nouveauté(request):
+    return render(request, 'nouveauté.html')    
+
+def nouveautéplus(request):
+    return render(request, 'nouveauté plus.html')    
+
